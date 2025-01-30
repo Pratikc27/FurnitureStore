@@ -16,7 +16,7 @@ const Furniture = ({ state }) => {
             abs();
         }
     }, [contract])
-    return (<>
+    return (<div style={{display: 'flex', justifyContent: 'center'}}>
         <table style={{border: 'solid 1px', marginTop: '10px'}}>
     <thead>
         <tr>
@@ -37,7 +37,7 @@ const Furniture = ({ state }) => {
         ))}
     </tbody>
 </table>
-    </>)
+    </div>)
 }
 
 export default Furniture;

@@ -36,14 +36,14 @@ const template = async () => {
     console.log(contract,'==')
     setState({provider, signer, contract});
   }catch(error){
-    alert(error);
+    
   }
 }
 template();
 }, []);
 
   return (
-    <div><h1>Furniture Shop</h1><br/>
+    <div><h1>Blockchain-Powered Furniture Shop</h1><br/>
     <div style={{
                 backgroundColor: '#f8f9f9',
                 color: 'red',

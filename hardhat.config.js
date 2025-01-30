@@ -16,3 +16,4 @@ module.exports = {
 };
 
 //0xD6242CA8Df1BfB786411B1aBb908FC2Aa6684f61
+//command to build: npm run build //make sure current directory is CRIO
